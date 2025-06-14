@@ -1,0 +1,55 @@
+.container {
+    margin: 20%;
+    text-align: justify;
+}
+.container-body {
+    background-color: white;
+    border-radius: 20px;
+    padding: 50px;
+    border-color: maroon;
+    border-style: solid;
+}
+.container img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+body {
+    background-image: url("assets/meming-background.png");
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.content-row {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* spacing between image and article */
+    justify-content: center;
+}
+  
+.content-row img {
+    border-radius: 10px;
+}
+  
+.content-row article {
+    flex: 1; /* allows article to take up remaining space */
+}
+footer {
+    display: flex;
+}
+.many-pics {
+    display: flex;
+    gap: 10px; /* spacing between images */
+    flex-wrap: wrap; /* optional, allows wrapping on small screens */
+}
+.many-pics div {
+    align-items: center;
+}
+  
+.many-pics img {
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+    border-color: maroon;
+    border-style: solid;
+  }
